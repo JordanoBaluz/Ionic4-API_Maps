@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Google Map
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+ <!--create a element for map. #Map - identifier -->
+  <div id="map"></div>
+  <ion-label id="inInfo">
+    <ion-item>
+      <ion-label>Ocorrencia: </ion-label>
+      <ion-select placeholder="Selecione a ocorrencia">
+        <ion-select-option id="1">Sistema viário</ion-select-option>
+        <ion-select-option id="2">Sistema sanitário</ion-select-option>
+        <ion-select-option id="3">Sistema energético</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item >
+      <ion-textarea id="IdText" placeholder="Observação">
+      </ion-textarea>
+    </ion-item>
+    <ion-item>
+      <ion-button id="IdEnviar">
+        Enviar
+      </ion-button>
+    </ion-item>
+  </ion-label>
+  
+</ion-content>
